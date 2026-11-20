@@ -26,14 +26,17 @@ KEY_ENV = {
 GEMINI_FALLBACKS = ["gemini-flash-lite-latest", "gemini-2.5-flash-lite"]   # pehla model masroof ho to
 TIMEOUT = 60
 MAX_TOKENS = 1500
+LAST = {"seconds": None}      # akhri kamyab API call ka time (retry ka intezaar shamil nahi)
 
 
 def _post(url, headers, payload, retries=3):
     """429, 5xx aur timeout par ruk kar dobara koshish. Aakhir mein hamesha RuntimeError."""
     last = "unknown"
     for attempt in range(1, retries + 1):
+        t0 = time.time()
         try:
             r = requests.post(url, headers=headers, json=payload, timeout=TIMEOUT)
+            LAST["seconds"] = round(time.time() - t0, 1)   # sirf is ek call ka time
         except requests.RequestException as e:          # timeout / network masla
             last = f"network: {type(e).__name__}"
             if attempt < retries:

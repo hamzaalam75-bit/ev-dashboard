@@ -17,9 +17,9 @@ from common import now_utc
 CLEAN = "data/clean"
 
 QUESTIONS = {
-    "Q1_trends": "Is data se EV market ke 4 sab se zaroori trends bullets mein batao. Har bullet mein data ka ek number zaroor do.",
-    "Q2_anomaly": "Is data mein kaun si cheez shak wali ya ghalat lagti hai (outlier, mismatch)? Sirf wahi batao jo data mein nazar aa raha hai.",
-    "Q3_pakistan": "Pakistan ke EV bazar ke liye is data se 3 mukhtasir nateeje nikalo. Jo data mein nahi hai us par andaza mat lagao, saaf likho 'data mein nahi'.",
+    "Q1_trends": "From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.",
+    "Q2_anomaly": "Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.",
+    "Q3_pakistan": "What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.",
 }
 
 
@@ -87,17 +87,18 @@ def main():
     rows = []
     for provider in L.MODELS:
         for qid, q in QUESTIONS.items():
-            prompt = ("Neeche EV (electric vehicle) data ke asli numbers hain. Sirf inhi par jawab do, "
-                      "naye numbers mat banao. Jawab chhota aur saaf rakho.\n\nDATA:\n"
-                      f"{context}\n\nSAWAL: {q}")
+            prompt = ("Below are real numbers about the electric vehicle (EV) market. Answer using only "
+                      "these numbers and do not invent new numbers. Keep the answer short and clear, "
+                      "in English.\n\nDATA:\n"
+                      f"{context}\n\nQUESTION: {q}")
             row = {"provider": provider, "model": L.MODELS[provider], "question_id": qid,
                    "question": q, "answer": "", "seconds": None, "status": "", "error": "",
                    "fetched_at": now_utc()}
-            t0 = time.time()
+            L.LAST["seconds"] = None
             try:
                 text, model = L.ask(provider, prompt)
                 row.update(model=model, answer=text.strip(), status="ok",
-                           seconds=round(time.time() - t0, 1))
+                           seconds=L.LAST["seconds"])
             except Exception as e:
                 msg = str(e)
                 row["status"] = "skipped_no_key" if msg == "no_key" else "error"
