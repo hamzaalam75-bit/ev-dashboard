@@ -1,14 +1,14 @@
 fact_id,fact,fetched_at
-owid_latest_year,Latest year in global EV sales data: 2025,2026-11-21 05:36:48
-world_total,"World EV sales in 2025: 21,200,000",2026-11-21 05:36:48
-owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-21 05:36:48
-china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-21 05:36:48
-us_stations,"US EV charging stations total: 91,746. Top states: CA 22,269, NY 6,196, MA 4,964",2026-11-21 05:36:48
-evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-21 05:36:48
-evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-21 05:36:48
-pk_listings,"PakWheels used EV listings: 75 total, 68 with clean price. Median price PKR 75.8 lakh",2026-11-21 05:36:48
-pk_brand_price,"Median PKR lakh by brand: JMEV 52, Chery 60, Seres 60, MG 65, Nissan 68, Dongfeng 68, BYD 76, Forthing 99, Deepal 120, Audi 145, Tesla 145, BMW 210, Mercedes-Benz 285, Porsche 358",2026-11-21 05:36:48
-pk_suspect,PakWheels listings flagged suspect (missing/odd price): 7,2026-11-21 05:36:48
-stock_change,"EV stock change over data window (2026-08-21 to 2026-11-20): BYDDY -35.3%, LCID -54.6%, NIO -47.1%, RIVN -39.1%, TSLA -4.7%",2026-11-21 05:36:48
-wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 354, max 438",2026-11-21 05:36:48
-news,"Recent headlines: Tesla FSD approved in Italy, the first big EU market to say yes | The Volkswagen ID. Buzz Beach is an electric van built for camping, but it’s not cheap | Black Friday 2026 Green Deals Hub: e-bikes, EVs, power stations, tools, appliances, and mo | Double guns: ultra-class haul truck packs dual-gun MCS charging, 4 MWh battery | BYD offers a first look at its new flagship people mover | This 500 kWh energy storage system runs on retired EV batteries",2026-11-21 05:36:48
+owid_latest_year,Latest year in global EV sales data: 2025,2026-11-21 18:42:20
+world_total,"World EV sales in 2025: 21,200,000",2026-11-21 18:42:20
+owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-21 18:42:20
+china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-21 18:42:20
+us_stations,"US EV charging stations total: 91,750. Top states: CA 22,270, NY 6,196, MA 4,966",2026-11-21 18:42:20
+evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-21 18:42:20
+evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-21 18:42:20
+pk_listings,"PakWheels used EV listings: 75 total, 67 with clean price. Median price PKR 75.0 lakh",2026-11-21 18:42:20
+pk_brand_price,"Median PKR lakh by brand: JMEV 50, Seres 60, Chery 61, GUGO 64, MG 65, Nissan 66, Dongfeng 75, BYD 75, Forthing 92, Audi 145, Tesla 145, BMW 210, Mercedes-Benz 285, Porsche 340",2026-11-21 18:42:20
+pk_suspect,PakWheels listings flagged suspect (missing/odd price): 8,2026-11-21 18:42:20
+stock_change,"EV stock change over data window (2026-08-21 to 2026-11-20): BYDDY -35.3%, LCID -54.6%, NIO -47.1%, RIVN -39.1%, TSLA -4.7%",2026-11-21 18:42:20
+wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 354, max 438",2026-11-21 18:42:20
+news,"Recent headlines: Electric cars are finally mainstream in GTA 6, and Vice City is full of them | Elon Musk freezes at awkward Tesla Argentina launch: ‘I don’t know what to say’ | This 500 kWh energy storage system runs on retired EV batteries | Elon Musk’s $1 trillion pay day gets more ridiculous the more you look into it (upd.) | Toyota just built a tiny folding electric bike to fit in your trunk | E-quipment highlight: Mantsinen 200 material handler has tank treads",2026-11-21 18:42:20
