@@ -1,14 +1,14 @@
 fact_id,fact,fetched_at
-owid_latest_year,Latest year in global EV sales data: 2025,2026-11-22 05:00:59
-world_total,"World EV sales in 2025: 21,200,000",2026-11-22 05:00:59
-owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-22 05:00:59
-china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-22 05:00:59
-us_stations,"US EV charging stations total: 91,738. Top states: CA 22,266, NY 6,199, MA 4,965",2026-11-22 05:00:59
-evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-22 05:00:59
-evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-22 05:00:59
-pk_listings,"PakWheels used EV listings: 75 total, 67 with clean price. Median price PKR 75.0 lakh",2026-11-22 05:00:59
-pk_brand_price,"Median PKR lakh by brand: JMEV 50, Seres 60, MG 60, Chery 61, GUGO 64, Nissan 66, Dongfeng 75, BYD 75, Forthing 92, Audi 145, BMW 210, Mercedes-Benz 285, Porsche 324",2026-11-22 05:00:59
-pk_suspect,PakWheels listings flagged suspect (missing/odd price): 8,2026-11-22 05:00:59
-stock_change,"EV stock change over data window (2026-08-21 to 2026-11-20): BYDDY -35.3%, LCID -54.6%, NIO -47.1%, RIVN -39.1%, TSLA -4.7%",2026-11-22 05:00:59
-wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 351, max 438",2026-11-22 05:00:59
-news,"Recent headlines: Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes | How much does charging an EV really cost? This Redditor says $7 per month | Tesla Cybertruck’s already impressive turning radius gets even tighter | Toyota just built a tiny folding electric bike to fit in your trunk | Rumor: Hyundai is getting ready to roll out an all-new, all-electric work truck | Xiaomi’s 1,548 hp electric supercar is going global, starting in the UAE",2026-11-22 05:00:59
+owid_latest_year,Latest year in global EV sales data: 2025,2026-11-22 19:02:21
+world_total,"World EV sales in 2025: 21,200,000",2026-11-22 19:02:21
+owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-22 19:02:21
+china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-22 19:02:21
+us_stations,"US EV charging stations total: 91,739. Top states: CA 22,266, NY 6,199, MA 4,965",2026-11-22 19:02:21
+evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-22 19:02:21
+evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-22 19:02:21
+pk_listings,"PakWheels used EV listings: 75 total, 70 with clean price. Median price PKR 75.0 lakh",2026-11-22 19:02:21
+pk_brand_price,"Median PKR lakh by brand: Inverex 40, JMEV 50, Nissan 52, Seres 60, Chery 61, GUGO 64, MG 65, BYD 76, Deepal 140, Audi 145, Mercedes-Benz 165, BMW 188, Porsche 324",2026-11-22 19:02:21
+pk_suspect,PakWheels listings flagged suspect (missing/odd price): 5,2026-11-22 19:02:21
+stock_change,"EV stock change over data window (2026-08-21 to 2026-11-20): BYDDY -35.3%, LCID -54.6%, NIO -47.1%, RIVN -39.1%, TSLA -4.7%",2026-11-22 19:02:21
+wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 351, max 438",2026-11-22 19:02:21
+news,"Recent headlines: Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes | How much does charging an EV really cost? This Redditor says $7 per month | Tesla Cybertruck’s already impressive turning radius gets even tighter | Toyota just built a tiny folding electric bike to fit in your trunk | Briggs & Stratton keeps the lights on longer with bigger 16 kWh LFP battery | From equipment to ferries to locomotives, Illinois ports are getting a ZEV makeover",2026-11-22 19:02:21
