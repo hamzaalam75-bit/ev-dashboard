@@ -1,14 +1,14 @@
 fact_id,fact,fetched_at
-owid_latest_year,Latest year in global EV sales data: 2025,2026-11-25 06:58:22
-world_total,"World EV sales in 2025: 21,200,000",2026-11-25 06:58:22
-owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-25 06:58:22
-china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-25 06:58:22
-us_stations,"US EV charging stations total: 91,863. Top states: CA 22,276, NY 6,229, MA 4,962",2026-11-25 06:58:22
-evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-25 06:58:22
-evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-25 06:58:22
-pk_listings,"PakWheels used EV listings: 75 total, 69 with clean price. Median price PKR 76.5 lakh",2026-11-25 06:58:22
-pk_brand_price,"Median PKR lakh by brand: Alektra 12, Smart 44, Nissan 54, Dongfeng 59, Chery 59, BYD 76, Forthing 89, Jaecoo 94, Deepal 110, Tesla 120, Audi 142, Mercedes-Benz 145, BMW 185, Porsche 315",2026-11-25 06:58:22
-pk_suspect,PakWheels listings flagged suspect (missing/odd price): 6,2026-11-25 06:58:22
-stock_change,"EV stock change over data window (2026-08-25 to 2026-11-24): BYDDY -35.3%, LCID -49.8%, NIO -42.0%, RIVN -32.2%, TSLA +9.8%",2026-11-25 06:58:22
-wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 348, max 438",2026-11-25 06:58:22
-news,"Recent headlines: BYD in talks to buy Ineos’ French factory as Grenadier moves to US | Two tech companies tried to reinvent the e-bike. Why DJI’s Amflow soared while Rivian’s AL | The Porsche Boxster EV is finally almost here, and it will be the most powerful 718 yet [I | Trump says he ‘protected’ Musk in first term after ‘a tough incident’ – what could it be? | Cadillac’s luxury 3-row EV just got more expensive, now starting at over $80,000 | VW will pay EV drivers in Germany up to €720 to plug in at home",2026-11-25 06:58:22
+owid_latest_year,Latest year in global EV sales data: 2025,2026-11-25 21:03:12
+world_total,"World EV sales in 2025: 21,200,000",2026-11-25 21:03:12
+owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-25 21:03:12
+china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-25 21:03:12
+us_stations,"US EV charging stations total: 91,863. Top states: CA 22,276, NY 6,229, MA 4,962",2026-11-25 21:03:12
+evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-25 21:03:12
+evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-25 21:03:12
+pk_listings,"PakWheels used EV listings: 75 total, 70 with clean price. Median price PKR 79.8 lakh",2026-11-25 21:03:12
+pk_brand_price,"Median PKR lakh by brand: Smart 44, Nissan 54, Dongfeng 58, Chery 59, Seres 60, BYD 76, Forthing 83, Deepal 108, Tesla 120, Audi 145, Mercedes-Benz 145, BMW 185, Porsche 298",2026-11-25 21:03:12
+pk_suspect,PakWheels listings flagged suspect (missing/odd price): 5,2026-11-25 21:03:12
+stock_change,"EV stock change over data window (2026-08-26 to 2026-11-25): BYDDY -34.9%, LCID -48.3%, NIO -38.7%, RIVN -28.3%, TSLA +9.9%",2026-11-25 21:03:12
+wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 350, max 478",2026-11-25 21:03:12
+news,"Recent headlines: Tesla quietly sets up a company at German machine maker EMAG’s HQ | Volkswagen’s new affordable electric SUV gets a sporty upgrade with GTI DNA | Worx 40V 20-inch cordless snow blower + 2x batteries $350 low, Anker SOLIX E10 system excl | Hyundai IONIQ 3 spotted on US roads: Is the affordable EV coming to the US? [update] | Toyota is about to unveil its first extended-range EV, and it looks like the Highlander | from Recent Videos Electrek Logo",2026-11-25 21:03:12
