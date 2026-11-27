@@ -1,70 +1,87 @@
 provider,model,question_id,question,answer,seconds,status,error,fetched_at
-gemini,gemini-flash-lite-latest,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","Based on the provided data, here are 4 market trends and points:
+gemini,gemini-flash-lite-latest,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","Based on the provided data, here are 4 key EV market trends:
 
-* **Global EV Sales:** World EV sales reached 21,200,000 in 2025, which is the latest year in the global EV sales data.
-* **Top Country Sales and Growth:** China led the top 5 countries with 13,300,000 EV sales in 2025, achieving a 17.7% growth from 2024 to 2025.
-* **US Infrastructure:** The United States has a total of 91,880 EV charging stations, with California leading at 22,278 stations.
-* **Europe EV Specifications:** European EV database models (1125 models with specs) feature a median range of 420 km and a median battery of 77.0 kWh.",0.9,ok,,2026-11-27 06:41:52
-gemini,gemini-flash-lite-latest,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","Based on the provided data, the only item explicitly flagged as suspect is:
-- PakWheels listings flagged suspect (missing/odd price): 5",0.7,ok,,2026-11-27 06:45:25
-gemini,gemini-flash-lite-latest,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"Based on the provided data, here are 3 conclusions about the Pakistan EV market:
+* **Global EV Sales:** World EV sales reached 21,200,000 in 2025.
+* **Top Market Performance:** China led global EV sales in 2025 with 13,300,000 units, alongside a 17.7% growth from 2024 to 2025.
+* **Charging Infrastructure:** The United States reached a total of 91,880 EV charging stations.
+* **Vehicle Specifications:** European database models show a median range of 420 km and a median battery of 77.0 kWh across 1125 models.",0.7,ok,,2026-11-27 20:41:09
+gemini,gemini-flash-lite-latest,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","Based on the provided data, the suspicious or inconsistent items are:
+- PakWheels listings flagged suspect (missing/odd price): 5
+- PakWheels used EV listings: 75 total, but only 70 with clean price (75 total minus 70 with clean price equals 5, which matches the flagged suspect count).",0.6,ok,,2026-11-27 20:44:42
+gemini,gemini-flash-lite-latest,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"Based on the provided data, the 3 conclusions about the Pakistan EV market are:
 
-1. There are 75 total PakWheels used EV listings, with 70 having a clean price and 5 flagged as suspect (missing or odd price).
-2. The overall median price for these used EVs is PKR 88.2 lakh.
-3. The median PKR lakh by brand ranges from Smart at 44, Nissan 58, Dongfeng 58, Chery 60, Seres 60, GUGO 64, MG 65, BYD 76, Forthing 98, Tesla 110, Deepal 124, Audi 128, and BMW 245, to Porsche at 298.",0.9,ok,,2026-11-27 06:48:04
-gptoss,openai/gpt-oss-120b,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","- Global EV sales hit **21.2 million** in 2025, with **China accounting for 13.3 million** (≈62 % of total) – the market remains China‑centric.  
-- China’s EV sales grew **17.7 %** from 2024 to 2025, showing accelerating demand in the world’s largest market.  
-- The United States now has **91,880** charging stations, with **California alone hosting 22,278** of them, indicating rapid network expansion.  
-- European EVs have a median range of **420 km** and median battery size of **77 kWh**, while the longest‑range model (Mercedes‑Benz EQS 450+) reaches **765 km**, reflecting continual improvements in range and efficiency.",1.7,ok,,2026-11-27 06:50:28
-gptoss,openai/gpt-oss-120b,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","**Suspicious / inconsistent items visible in the data**
+1. There are 75 total PakWheels used EV listings, with 70 having a clean price and 5 flagged as suspect due to missing or odd prices.
+2. The median price for used EVs in these listings is PKR 90.5 lakh.
+3. The median PKR lakh prices by brand are: Honri 34, Smart 44, Nissan 54, Chery 60, Seres 60, GUGO 64, MG 65, BYD 85, Forthing 98, Dongfeng 105, Deepal 119, Audi 136, Mercedes-Benz 155, Tesla 235, BMW 245, and Porsche 315.",0.8,ok,,2026-11-27 20:46:27
+gptoss,openai/gpt-oss-120b,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","- Global EV sales hit **21.2 million** in 2025, with **China** contributing **13.3 million** units and posting a **17.7 %** YoY growth.  
+- US charging infrastructure reached **91,880** stations, and California alone hosts **22,278** of them.  
+- Vehicle range is improving: the median EV range is **420 km** (median efficiency **182 Wh/km**) and the longest model, the Mercedes‑Benz EQS 450+, offers **765 km**.  
+- Premium EV prices are high and rising: median listing price is **90.5 lakh PKR**, with Tesla at **235 lakh** and Porsche at **315 lakh**; meanwhile TSLA stock rose **+14.7 %** while other makers fell.",1.4,ok,,2026-11-27 20:48:09
+gptoss,openai/gpt-oss-120b,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","**Suspicious / outlier items visible in the data**
 
-- **EV‑stock changes (2026‑08‑26 → 2026‑11‑25)** – very large drops for several companies (‑34.6 % to ‑48.3 %) while Tesla is the only one showing a modest gain (+9.9 %). The magnitude of the declines looks extreme for a short‑term window.  
-- **US EV‑charging stations** – total of 91,880 stations for 1.53 million U.S. EVs sold in 2025 (≈ 1 station per 17 vehicles). This ratio is unusually low compared with typical deployment levels.  
-- **Longest‑range model vs. European median** – Mercedes‑Benz EQS 450+ (765 km) is almost double the European median range of 420 km, standing out as a strong outlier.  
-- **Wikipedia “Electric vehicle” daily‑view numbers** – average of 351 and a maximum of 478 daily views seem very low for a globally trending topic, suggesting a possible data mismatch.  
-- **Recent headlines** – several headlines refer to events in **Thanksgiving 2026** and other 2026‑dated news, while the latest market year in the dataset is **2025**. The time‑frame mismatch is inconsistent.  
-- **PakWheels price data** – the overall median price (PKR 88.2 lakh) is lower than the median price for many high‑end brands (e.g., Tesla 110 lakh, Porsche 298 lakh, BMW 245 lakh). While not impossible, the spread is unusually wide and may indicate pricing inconsistencies.",1.9,ok,,2026-11-27 06:50:32
-gptoss,openai/gpt-oss-120b,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"- Only **75 used EV listings** are recorded, with **70 (≈93%) having a clean price** and a **median price of PKR 88.2 lakh**.  
-- Brand‑level median prices range from **PKR 44 lakh (Smart)** up to **PKR 298 lakh (Porsche)**, indicating a wide price spread among available models.  
-- **5 listings are flagged as suspect** (missing or odd price); data on overall EV sales, charging infrastructure, or market growth in Pakistan is **not in data**.",0.7,ok,,2026-11-27 06:50:35
-qwen,qwen/qwen3.8-27b,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","*   China dominates global EV sales with 13,300,000 units in 2025, accounting for the majority of the world's total 21,200,000 sales.
-*   The European EV market features a median battery capacity of 77.0 kWh and a median range of 420 km across 1,125 models.
-*   Used EV prices in Pakistan vary significantly by brand, with a median price of PKR 88.2 lakh, ranging from Smart at PKR 44 lakh to Porsche at PKR 298 lakh.
-*   EV stock performance is mixed, with Tesla (TSLA) rising +9.9% while competitors like LCID (-48.3%) and BYDDY (-34.6%) saw significant declines.",0.6,ok,,2026-11-27 06:50:38
+- **PakWheels listings** – 5 of the 75 EV listings are flagged as suspect (missing/odd price).  
+- **EV‑stock changes** – Very large negative moves for several companies:  
+  - BYDDY ‑34.2 %  
+  - LCID ‑48.1 %  
+  - NIO ‑34.8 %  
+  - RIVN ‑24.2 %  
+  (while TSLA shows a modest +14.7 %).  
+- **Median price (PKR lakh) by brand** – The high‑end brands stand out as outliers:  
+  - Tesla 235 lakh  
+  - BMW 245 lakh  
+  - Porsche 315 lakh  
+  (far above the next highest, Audi 136 lakh).  
+
+These are the only items that appear inconsistent or unusually extreme based on the numbers provided.",2.3,ok,,2026-11-27 20:48:12
+gptoss,openai/gpt-oss-120b,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"- Only 75 used‑EV listings are recorded, and 70 of them (≈93 %) have a clear price.  
+- The median price of a used EV in Pakistan is PKR 90.5 lakh; brand medians range from PKR 34 lakh (Honri) up to PKR 315 lakh (Porsche).  
+- Five listings (≈7 %) are flagged as suspect (missing or odd price), indicating some data‑quality concerns.",1.0,ok,,2026-11-27 20:48:17
+qwen,qwen/qwen3.8-27b,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","*   **China’s Dominance:** China leads global EV sales with 13,300,000 units in 2025, accounting for the majority of the world’s total 21,200,000 sales.
+*   **European Efficiency Standards:** The median EV in Europe offers a 420 km range with a 77.0 kWh battery, reflecting a market focus on balanced efficiency at 182 Wh/km.
+*   **US Infrastructure Gap:** The United States has only 91,880 total EV charging stations, with California alone holding 22,278, indicating significant regional concentration.
+*   **Stock Market Volatility:** Recent stock performance shows high volatility among EV makers, with LCID dropping -48.1% and NIO falling -34.8%, while TSLA rose +14.7%.",1.0,ok,,2026-11-27 20:48:19
 qwen,qwen/qwen3.8-27b,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","Based on the provided data, the following items appear suspicious or inconsistent:
 
-*   **Future Dates:** The EV stock change window is listed as **2026-08-26 to 2026-11-25**, and headlines reference **Thanksgiving 2026** and a **MY26** model, which are in the future relative to the ""Latest year"" of 2025.
-*   **Stock Performance Outlier:** **TSLA (+9.9%)** is the only stock with positive growth, while all others (BYDDY, LCID, NIO, RIVN) show significant declines (-28.3% to -48.3%).
-*   **Price Outlier:** **Porsche (298 PKR lakh)** has a median price significantly higher than the next highest brand, **BMW (128 PKR lakh)**, and more than double the overall median price of 88.2 PKR lakh.
-*   **Data Quality Flag:** **5 listings** on PakWheels are explicitly flagged as ""suspect"" due to missing or odd prices.",0.7,ok,,2026-11-27 06:50:41
-qwen,qwen/qwen3.8-27b,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"1. The median price for used EVs in Pakistan is PKR 88.2 lakh, with significant variation by brand ranging from Smart (PKR 44 lakh) to Porsche (PKR 298 lakh).
-2. There are 75 total used EV listings on PakWheels, of which 5 are flagged as suspect due to missing or odd prices.
-3. Data on new EV sales volume, charging infrastructure, or market growth rates for Pakistan is not in data.",0.4,ok,,2026-11-27 06:50:43
-allam,allam-2-7b,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","1. EV market growth in China: In 2025, China accounted for 13,300,000 EV sales out of 21,200,000 global sales (47% market share).
-2. EV adoption in the US: As of November 2026, there are 91,880 electric vehicles listed on PakWheels, with a median price of PKR 88.2 lakh.
-3. Tesla's market performance: Tesla's stock price increased by 9.9% from August to November 2026, with 29 mobile Supercharger stalls deployed for Thanksgiving travel.
-4. EV market expansion globally: The average daily views on Wikipedia's 'Electric vehicle' page reached 351 views, with a maximum of 478 views per day, indicating growing global interest in EVs.",0.4,ok,,2026-11-27 06:50:46
-allam,allam-2-7b,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","Based on the provided data, the following items appear to have suspicious or inconsistent values:
+*   **PakWheels Used EV Listings:** There are only **75** total listings, which is an unusually low sample size for a national market database. Additionally, **5** listings are flagged as suspect due to missing or odd prices.
+*   **EV Stock Data Window:** The stock change data is labeled for the period **2026-08-28 to 2026-11-27**, which is in the future relative to the ""Latest year in global EV sales data"" of **2025**. This creates a temporal inconsistency within the dataset.
+*   **Wikipedia Views:** The average daily views for the 'Electric vehicle' article are listed as **351**, which is extremely low for a major global topic and may indicate a data error or a very specific, limited tracking window.",1.1,ok,,2026-11-27 20:48:23
+qwen,qwen/qwen3.8-27b,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"1. The market is small and fragmented, with only 75 total used EV listings (70 with clean prices) and a median price of PKR 90.5 lakh.
+2. Brand pricing varies significantly, ranging from a median of PKR 34 lakh for Honri to PKR 315 lakh for Porsche, with Tesla at PKR 235 lakh.
+3. Data quality issues exist, as 5 listings were flagged as suspect due to missing or odd prices.",1.0,ok,,2026-11-27 20:48:26
+allam,allam-2-7b,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","1. EV market growth in China:
+   - China's EV sales growth: 17.7%
+2. Global EV market expansion:
+   - Longest range EV: Mercedes-Benz EQS (765 km)
+3. Market volatility and company performance:
+   - BYDDY stock decline: -34.2%
+4. Increasing demand for used EVs:
+   - Used Tesla Cybertruck prices: one asking $150,000",0.4,ok,,2026-11-27 20:48:29
+allam,allam-2-7b,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","Based on the provided data, the following items stand out as potentially suspicious or inconsistent:
 
 1. PakWheels listings flagged as suspect (missing/odd price): 5
-2. BYDDY stock change over the data window: -34.6%
-3. LCID stock change over the data window: -48.3%
-4. NIO stock change over the data window: -38.4%
-5. RIVN stock change over the data window: -28.3%
+2. BYDDY stock change over the data window: -34.2%
+3. LCID stock change over the data window: -48.1%
+4. NIO stock change over the data window: -34.8%
+5. RIVN stock change over the data window: -24.2%
+6. Tesla stock change over the data window: +14.7%
 
-These values are suspicious because they represent significant negative stock changes, which seems unusual for stock prices, especially considering the positive changes for Tesla (+9.9%). It is advisable to verify these numbers from a reliable source before drawing conclusions.",0.4,ok,,2026-11-27 06:50:48
-allam,allam-2-7b,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"1. In Pakistan, EV sales are relatively low: The median price of EVs on PakWheels is around PKR 88,000, which indicates a smaller market compared to global prices.
-2. PakWheels EV listings data covers a limited time period (from August to November 2026): The stock change data for BYDDY, LCID, NIO, RIVN, and TSLA shows the market's volatility during this period.
-3. Electric vehicles are gaining popularity, but EV market news is not highly discussed in Pakistan: The number of daily views on Wikipedia for 'Electric vehicle' is around 351, with a maximum of 478 views, indicating limited attention to EV market developments in Pakistan.",0.4,ok,,2026-11-27 06:50:51
-cohere,command-a-03-2025,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","- **China dominates global EV sales**, accounting for **13,300,000** units in 2025, over 62% of the world’s total EV sales of **21,200,000**.  
-- **EV range and efficiency are improving**, with a median range of **420 km** and median efficiency of **182 Wh/km** across 1,125 European EV models.  
-- **Charging infrastructure is expanding**, with **91,880** charging stations in the US, led by California with **22,278** stations.  
-- **EV stock prices are volatile**, with Tesla (TSLA) up **9.9%** and other brands like BYDDY and LCID down **34.6%** and **48.3%** respectively, over a recent data window.",2.9,ok,,2026-11-27 06:50:53
-cohere,command-a-03-2025,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","1. **EV stock change for TSLA (+9.9%)** while other EV stocks (BYDDY, LCID, NIO, RIVN) show significant declines (-28.3% to -48.3%).  
-2. **Median price for BMW (PKR 245 lakh)** and Porsche (PKR 298 lakh) being much higher than other brands, including Tesla (PKR 110 lakh).  
-3. **5 PakWheels listings flagged as suspect** (missing/odd price) out of 75 total listings, indicating potential data issues.  
-4. **China’s EV sales (13,300,000)** dominate global sales (21,200,000), accounting for ~62.7%, which seems disproportionately high compared to other top countries.  
-5. **US EV charging stations in California (22,278)** vs. New York (6,229) and Massachusetts (4,968), showing a large imbalance in distribution.",3.5,ok,,2026-11-27 06:50:58
-cohere,command-a-03-2025,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"1. **Median used EV price is PKR 88.2 lakh**: This reflects the central price point for used EVs listed on PakWheels.  
-2. **Tesla is the most expensive brand (PKR 110 lakh median)**: Among brands listed, Tesla has the highest median price.  
-3. **Market size or demand is not in data**: No information is provided on total EV sales, registrations, or consumer demand in Pakistan.",1.7,ok,,2026-11-27 06:51:03
+These numbers seem suspicious due to their extreme negative values compared to the positive change in Tesla stock.",0.4,ok,,2026-11-27 20:48:31
+allam,allam-2-7b,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"1. In Pakistan, the EV market seems to be growing as PakWheels used EV listings increased from 75 in August to 120 in November, showing a 57% growth (not in data for exact numbers before August).
+2. Tesla is popular among EV buyers in Pakistan, as the median Tesla price is higher than other brands (not in data for exact prices).
+3. EV awareness and interest in Pakistan are increasing, as the number of daily views on the 'Electric vehicle' Wikipedia page is relatively high, averaging 351 views per day and peaking at 478 views.",0.4,ok,,2026-11-27 20:48:33
+cohere,command-a-03-2025,Q1_trends,"From this data, list the 4 most important EV market trends as bullet points. Include at least one number from the data in each bullet.","- **China dominates global EV sales with 13,300,000 units in 2025**, accounting for over 62% of the world’s total EV sales (21,200,000).  
+- **EV range and efficiency are improving**, with a median range of 420 km and median efficiency of 182 Wh/km across 1,125 European EV models.  
+- **Used EV prices vary widely by brand**, with median prices ranging from PKR 34 lakh (Honri) to PKR 315 lakh (Porsche) in PakWheels listings.  
+- **EV stock prices are volatile**, with Tesla (TSLA) up 14.7% and others like NIO (-34.8%) and LCID (-48.1%) declining sharply over a recent data window.",2.8,ok,,2026-11-27 20:48:36
+cohere,command-a-03-2025,Q2_anomaly,"Which items in this data look suspicious or inconsistent (outliers, mismatches)? List only what is visible in the data.","1. **China's EV sales dominance**: China's 13,300,000 EV sales in 2025 is significantly higher than the combined sales of the next four countries (United States, Germany, United Kingdom, and France), which total 3,540,000.
+
+2. **US EV charging stations in Massachusetts (MA)**: MA has 4,968 charging stations, which seems high compared to New York (NY) with 6,229, given NY's larger population and EV market.
+
+3. **PakWheels used EV listings**: Only 75 total listings seem low for a platform, especially with 5 flagged as suspect.
+
+4. **Median PKR lakh by brand**: Some brands (e.g., Honri 34, Smart 44) have unusually low median prices compared to others (e.g., Porsche 315, BMW 245).
+
+5. **EV stock change**: TSLA's +14.7% growth contrasts sharply with significant declines in other EV stocks (e.g., LCID -48.1%, NIO -34.8%).",3.8,ok,,2026-11-27 20:48:41
+cohere,command-a-03-2025,Q3_pakistan,What 3 short conclusions can be drawn about the Pakistan EV market from this data? Do not speculate beyond the data; write 'not in data' where the data is missing.,"1. **Median used EV price is PKR 90.5 lakh**: This is the central price point for used EVs listed on PakWheels.  
+2. **Tesla is the most expensive brand**: Median price for Tesla is PKR 235 lakh, the highest among listed brands.  
+3. **Market size and growth not in data**: No information is provided about total EV sales, adoption rates, or growth trends in Pakistan.",1.5,ok,,2026-11-27 20:48:46
