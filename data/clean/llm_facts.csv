@@ -1,14 +1,14 @@
 fact_id,fact,fetched_at
-owid_latest_year,Latest year in global EV sales data: 2025,2026-11-27 20:41:09
-world_total,"World EV sales in 2025: 21,200,000",2026-11-27 20:41:09
-owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-27 20:41:09
-china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-27 20:41:09
-us_stations,"US EV charging stations total: 91,880. Top states: CA 22,278, NY 6,229, MA 4,968",2026-11-27 20:41:09
-evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-27 20:41:09
-evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-27 20:41:09
-pk_listings,"PakWheels used EV listings: 75 total, 70 with clean price. Median price PKR 90.5 lakh",2026-11-27 20:41:09
-pk_brand_price,"Median PKR lakh by brand: Honri 34, Smart 44, Nissan 54, Chery 60, Seres 60, GUGO 64, MG 65, BYD 85, Forthing 98, Dongfeng 105, Deepal 119, Audi 136, Mercedes-Benz 155, Tesla 235, BMW 245, Porsche 315",2026-11-27 20:41:09
-pk_suspect,PakWheels listings flagged suspect (missing/odd price): 5,2026-11-27 20:41:09
-stock_change,"EV stock change over data window (2026-08-28 to 2026-11-27): BYDDY -34.2%, LCID -48.1%, NIO -34.8%, RIVN -24.2%, TSLA +14.7%",2026-11-27 20:41:09
-wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 351, max 478",2026-11-27 20:41:09
-news,"Recent headlines: Used Tesla Cybertruck prices jump after Musk kills it, one asks $150K | Wheel-E Podcast: Juiced Scrambler Mini, ALSO pauses e-bikes, more | Hyundai’s new Mercury EV Concept will launch as the IONIQ M in 2027 [Images] | This might be the real reason Elon Musk says Tesla’s AI5 chip is going to Optimus | Volkswagen’s new ID. Buzz Beach electric camper goes on sale, starting at over $70,000 | Zoomlion shows off SIXTY electrified, AI equipment assets at bauma 2026",2026-11-27 20:41:09
+owid_latest_year,Latest year in global EV sales data: 2025,2026-11-28 06:15:58
+world_total,"World EV sales in 2025: 21,200,000",2026-11-28 06:15:58
+owid_top5,"Top 5 countries by EV sales in 2025: China 13,300,000, United States 1,530,000, Germany 860,000, United Kingdom 700,000, France 450,000",2026-11-28 06:15:58
+china_growth,China EV sales growth 2024->2025: 17.7%,2026-11-28 06:15:58
+us_stations,"US EV charging stations total: 91,908. Top states: CA 22,281, NY 6,233, MA 4,970",2026-11-28 06:15:58
+evdb_summary,"EV Database (Europe), 1125 models with specs: median range 420 km, median battery 77.0 kWh, median efficiency 182 Wh/km",2026-11-28 06:15:58
+evdb_best_range,Longest range model: Mercedes-Benz EQS 450+ (MY26) 765 km,2026-11-28 06:15:58
+pk_listings,"PakWheels used EV listings: 75 total, 72 with clean price. Median price PKR 90.5 lakh",2026-11-28 06:15:58
+pk_brand_price,"Median PKR lakh by brand: Honri 34, JMEV 50, Nissan 54, Chery 60, Seres 60, GUGO 64, MG 65, BYD 84, Forthing 98, Dongfeng 105, Deepal 119, Audi 145, Mercedes-Benz 155, Tesla 235, BMW 245, Porsche 330",2026-11-28 06:15:58
+pk_suspect,PakWheels listings flagged suspect (missing/odd price): 3,2026-11-28 06:15:58
+stock_change,"EV stock change over data window (2026-08-28 to 2026-11-27): BYDDY -34.1%, LCID -48.1%, NIO -34.8%, RIVN -24.2%, TSLA +14.7%",2026-11-28 06:15:58
+wiki_views,"Wikipedia 'Electric vehicle' daily views: avg 351, max 478",2026-11-28 06:15:58
+news,"Recent headlines: Used Tesla Cybertruck prices jump after Musk kills it, one asks $150K | Wheel-E Podcast: Juiced Scrambler Mini, ALSO pauses e-bikes, more | Hyundai’s new Mercury EV Concept will launch as the IONIQ M in 2027 [Images] | This might be the real reason Elon Musk says Tesla’s AI5 chip is going to Optimus | IONNA’s got a 50% discount off EV charging over Thanksgiving weekend | Podcast: Tesla FSD v15, Volvo XC60/90 PHEVs, Porsche Boxster EV, and more",2026-11-28 06:15:58
